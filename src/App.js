@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Controller, Scene } from "react-scrollmagic";
+import Header from "./components/header/index";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Controller globalSceneOptions={{ triggerHook: "onLeave" }}>
+        <Scene pin>
+          <div className="panel">
+            <Header />
+          </div>
+        </Scene>
+        <Scene pin>
+          <div className="panel turqoise">
+            <span>Panel</span>
+          </div>
+        </Scene>
+        <Scene pin>
+          <div className="panel green">
+            <span>Panel</span>
+          </div>
+        </Scene>
+        <Scene pin>
+          <div className="panel bordeaux">
+            <span>Panel</span>
+          </div>
+        </Scene>
+      </Controller>
     </div>
   );
 }
