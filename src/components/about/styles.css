@@ -1,0 +1,35 @@
+.container {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+
+.left-container {
+  display: flex;
+  justify-content: center;
+  flex-basis: 50%;
+}
+
+.right-container {
+  flex-basis: 50%;
+}
+
+.degrade {
+  background: linear-gradient(90deg, #e6a30c, rgb(230, 163, 12, 0.6));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 960px) {
+  .row {
+    flex-direction: column;
+  }
+}
