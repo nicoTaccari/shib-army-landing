@@ -18,3 +18,10 @@ p {
 .panel.roadmap {
   background-color: rgb(21, 24, 36);
 }
+
+h2 {
+  font-size: 3em;
+  line-height: 2rem;
+  font-weight: 700;
+  color: #e6a30c;
+}

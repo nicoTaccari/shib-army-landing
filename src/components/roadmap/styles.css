@@ -1,0 +1,54 @@
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.roadmap-title {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  padding: 0 2em;
+}
+
+.line {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background: hsla(0, 0%, 100%, 0.4);
+  left: 82px;
+}
+
+.progression {
+  background: #e6a30c;
+  background: linear-gradient(180deg, #e6a30c, #ffb302 49%);
+  width: 3px;
+  height: 180px;
+  margin-left: -1px;
+}
+
+.step {
+  background: #04091a;
+  width: 100%;
+  max-width: 72.5em;
+  padding: 50px 70px;
+  margin: 30px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.step.p {
+  margin: 1.25em 0 0;
+  font-weight: 700;
+}
+
+.details {
+  margin-left: 2.25em;
+}
+
+.title {
+  align-items: flex-end;
+  color: #e6a30c;
+}

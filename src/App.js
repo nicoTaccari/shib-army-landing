@@ -10,9 +10,7 @@ const App = () => {
     <>
       <Header />
       <About />
-      <div className="panel roadmap">
-        <Roadmap />
-      </div>
+      <Roadmap />
       <Gallery />
     </>
   );
