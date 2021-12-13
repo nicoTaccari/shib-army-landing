@@ -1,33 +1,14 @@
+import React, { Fragment } from "react";
 import "./App.css";
-import { Controller, Scene } from "react-scrollmagic";
-import Header from "./components/header/index";
+import Roadmap from './components/roadmap/index'
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <Controller globalSceneOptions={{ triggerHook: "onLeave" }}>
-        <Scene pin>
-          <div className="panel">
-            <Header />
-          </div>
-        </Scene>
-        <Scene pin>
-          <div className="panel turqoise">
-            <span>Panel</span>
-          </div>
-        </Scene>
-        <Scene pin>
-          <div className="panel green">
-            <span>Panel</span>
-          </div>
-        </Scene>
-        <Scene pin>
-          <div className="panel bordeaux">
-            <span>Panel</span>
-          </div>
-        </Scene>
-      </Controller>
-    </div>
+    <Fragment>
+      <div className="panel roadmap">
+        <Roadmap/>
+      </div>
+    </Fragment>
   );
 }
 
