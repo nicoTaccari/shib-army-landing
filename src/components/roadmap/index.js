@@ -5,9 +5,9 @@ import "./styles.css";
 export default function Roadmap() {
   return (
     <section className="column">
-      <div className="container">
+      <div className="roadmap-container">
         <h2 className="roadmap-title">Roadmap</h2>
-        <p>
+        <p className="subtitle">
           lorem ipsum lorem ipsum lorem ipsum. lorem ipsum lorem ipsum lorem
           ipsum. lorem ipsum lorem ipsum lorem ipsum. lorem ipsum lorem ipsum
           lorem ipsum.
@@ -15,6 +15,9 @@ export default function Roadmap() {
         <div className="line">
           <div className="progression"></div>
         </div>
+        <Step />
+        <Step />
+        <Step />
         <Step />
       </div>
     </section>

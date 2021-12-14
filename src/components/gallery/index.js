@@ -15,7 +15,7 @@ SwiperCore.use([Keyboard, Pagination, Navigation]);
 
 export default function Gallery() {
   return (
-    <section>
+    <section className="swiper-container">
       <Swiper
         slidesPerView={1}
         spaceBetween={30}

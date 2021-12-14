@@ -1,9 +1,7 @@
 .about-container {
-  margin-top: 150px;
-  margin-bottom: 150px;
-  justify-content: space-around;
   align-items: center;
-  overflow: hidden;
+  width: 77.7%;
+  margin: 9em auto 4em auto;
 }
 
 .left-container {
@@ -14,6 +12,8 @@
 
 .right-container {
   flex-basis: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 .degrade {
