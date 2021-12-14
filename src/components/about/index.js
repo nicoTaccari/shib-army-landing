@@ -3,11 +3,9 @@ import "./styles.css";
 
 export default function About() {
   return (
-    <section className="container row">
+    <section className="about-container row">
       <div className="left-container">
-        <h2>
-          <div className="degrade">8206 Shibas</div>
-        </h2>
+        <h2>8206 Shibas</h2>
       </div>
       <div className="right-container">
         <p>
