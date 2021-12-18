@@ -25,6 +25,14 @@
   left: 82px;
 }
 
+.box {
+  position: absolute;
+}
+
+.shiba {
+  width: 200px;
+}
+
 .progression {
   background: #e6a30c;
   background: linear-gradient(180deg, #e6a30c, #ffb302 49%);
