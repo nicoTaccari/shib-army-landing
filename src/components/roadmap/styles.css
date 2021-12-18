@@ -5,15 +5,15 @@
 }
 
 .roadmap-title {
-  display: flex;
-  justify-content: center;
+  text-align: center;
+  font-weight: 400;
 }
 
 .roadmap-container {
   padding: 0 2em;
   position: relative;
   align-items: center;
-  width: 77.77%;
+  width: 70%;
   margin: 80px 0 0;
 }
 
@@ -29,7 +29,7 @@
   background: #e6a30c;
   background: linear-gradient(180deg, #e6a30c, #ffb302 49%);
   width: 3px;
-  height: 180px;
+  height: 35vh;
   margin-left: -1px;
 }
 
@@ -39,9 +39,15 @@
   margin: 30px 0;
 }
 
-.step.p {
+.step-top {
+  margin-top: 20vh;
+}
+
+.step p {
   margin: 1.25em 0 0;
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 15px;
+  color: #c5c3d3;
 }
 
 .step:last-child {
@@ -59,4 +65,5 @@
 
 .subtitle {
   margin-bottom: 4em;
+  text-align: center;
 }
