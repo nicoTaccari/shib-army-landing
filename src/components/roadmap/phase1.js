@@ -5,19 +5,11 @@ export default function Phase1() {
     <div className="step step-top">
       <div className="details">
         <div className="title">
-          <h3>Phase 1</h3>
-          <p>
-            ShibArmy NFT minting
-          </p>
-          <p>
-            ShibArmy NFT reveal
-          </p>
-          <p>
-            Charity Donation
-          </p>
-          <p>
-            Staking $SHIB / provide liquidity into pool
-          </p>
+          <h3>PHASE 1</h3>
+          <p>- NFT MINTING</p>
+          <p>- NFT REVEAL</p>
+          <p>Charity Donation</p>
+          <p>Start to generate passive income</p>
         </div>
       </div>
     </div>

@@ -6,7 +6,8 @@ import Header from "./components/header/index";
 import Gallery from "./components/gallery";
 import About from "./components/about";
 import Footer from "./components/footer";
-import SectionX from "./components/sectionX/sectionX";
+import Team from "./components/team";
+import Profiles from "./components/profiles";
 
 const App = () => {
   return (
@@ -14,8 +15,9 @@ const App = () => {
       <Header />
       <About />
       <Roadmap />
-      <Gallery />
-      <SectionX/>
+      {/* <Gallery /> */}
+      <Team />
+      <Profiles />
       <Footer />
     </>
   );

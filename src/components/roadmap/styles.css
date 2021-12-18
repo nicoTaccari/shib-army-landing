@@ -6,7 +6,6 @@
 
 .roadmap-title {
   text-align: center;
-  font-weight: 400;
 }
 
 .roadmap-container {
@@ -15,6 +14,16 @@
   align-items: center;
   width: 70%;
   margin: 80px 0 0;
+}
+
+@media (max-width: 780px) {
+  .roadmap-container {
+    width: 90%;
+  }
+
+  .step {
+    padding: 50px 10px 50px 70px;
+  }
 }
 
 .line {
@@ -71,7 +80,39 @@
   color: #e6a30c;
 }
 
+.title h3 {
+  font-size: 1.5em;
+  margin: auto;
+}
+
 .subtitle {
   margin-bottom: 4em;
   text-align: center;
+}
+
+.dot {
+  margin-left: -7px;
+  margin-top: -125px;
+}
+
+.below-dot {
+  margin-left: -26px;
+}
+
+.shape.done {
+  background-color: #e6a30c;
+}
+
+.shape {
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  box-shadow: 0 0 0 6px #04091a;
+  transform: rotate(45deg);
+}
+
+@media (max-width: 780px) {
+  .step {
+    padding: 50px 10px 50px 70px;
+  }
 }
