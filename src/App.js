@@ -15,7 +15,7 @@ const App = () => {
       <Header />
       <About />
       <Roadmap />
-      {/* <Gallery /> */}
+      <Gallery />
       <Team />
       <Profiles />
       <Footer />
