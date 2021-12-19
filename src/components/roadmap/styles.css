@@ -5,16 +5,25 @@
 }
 
 .roadmap-title {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .roadmap-container {
   padding: 0 2em;
   position: relative;
   align-items: center;
-  width: 77.77%;
+  width: 70%;
   margin: 80px 0 0;
+}
+
+@media (max-width: 780px) {
+  .roadmap-container {
+    width: 90%;
+  }
+
+  .step {
+    padding: 50px 10px 50px 70px;
+  }
 }
 
 .line {
@@ -25,11 +34,19 @@
   left: 82px;
 }
 
+.box {
+  position: absolute;
+}
+
+.shiba {
+  width: 200px;
+}
+
 .progression {
   background: #e6a30c;
   background: linear-gradient(180deg, #e6a30c, #ffb302 49%);
   width: 3px;
-  height: 180px;
+  height: 35vh;
   margin-left: -1px;
 }
 
@@ -39,9 +56,15 @@
   margin: 30px 0;
 }
 
-.step.p {
+.step-top {
+  margin-top: 20vh;
+}
+
+.step p {
   margin: 1.25em 0 0;
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 15px;
+  color: #c5c3d3;
 }
 
 .step:last-child {
@@ -57,6 +80,39 @@
   color: #e6a30c;
 }
 
+.title h3 {
+  font-size: 1.5em;
+  margin: auto;
+}
+
 .subtitle {
   margin-bottom: 4em;
+  text-align: center;
+}
+
+.dot {
+  margin-left: -7px;
+  margin-top: -125px;
+}
+
+.below-dot {
+  margin-left: -26px;
+}
+
+.shape.done {
+  background-color: #e6a30c;
+}
+
+.shape {
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  box-shadow: 0 0 0 6px #04091a;
+  transform: rotate(45deg);
+}
+
+@media (max-width: 780px) {
+  .step {
+    padding: 50px 10px 50px 70px;
+  }
 }
