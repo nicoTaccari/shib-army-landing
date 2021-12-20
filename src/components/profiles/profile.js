@@ -1,6 +1,5 @@
 import React from "react";
-import { FaTwitter } from "react-icons/fa";
-import { SiInstagram } from "react-icons/si";
+import { SiDiscord } from "react-icons/si";
 
 export default function Profile({ name, image, position, content }) {
   return (
@@ -12,11 +11,12 @@ export default function Profile({ name, image, position, content }) {
         <div className="profile-info">
           <h2>{name}</h2>
           <div className="icons-container">
-            <a href="#">
-              <FaTwitter />
-            </a>
-            <a href="#">
-              <SiInstagram />
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://discord.gg/K88Rn2D9y8"
+            >
+              <SiDiscord />
             </a>
           </div>
         </div>
