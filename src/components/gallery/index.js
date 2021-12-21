@@ -22,6 +22,7 @@ SwiperCore.use([Keyboard, Pagination, Navigation]);
 export default function Gallery() {
   return (
     <section className="swiper-container">
+      <h2>OUR SHIBA WARRIORS</h2>
       <Swiper
         slidesPerView={1}
         spaceBetween={30}

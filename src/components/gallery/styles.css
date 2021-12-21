@@ -5,6 +5,9 @@
 .swiper-container {
   margin-top: 2em;
   padding-top: 10em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .swiper-slide {
   text-align: center;
