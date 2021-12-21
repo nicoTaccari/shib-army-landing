@@ -28,6 +28,8 @@
   }
   .team-left-container {
     padding: 0 2em;
+    align-items: flex-start;
+    margin-left: 1em;
   }
   .team-right-container {
     padding: 0 2em;

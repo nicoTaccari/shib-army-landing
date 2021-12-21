@@ -9,9 +9,9 @@ export default function Phase2() {
       <div className="details">
         <div className="title">
           <h3>PHASE 2</h3>
-          <p>- Payout of passive income to all NFT HODLERS</p>
-          <p>- Starting development of shibarmy NFT game</p>
-          <p>- Presentation of game mechanics and art sketches</p>
+          <p>- PAYOUT OF PASSIVE INCOME TO ALL NFT HODLERS</p>
+          <p>- STARTING DEVELOPMENT OF SHIBARMY NFT GAME</p>
+          <p>- PRESENTATION OF GAME MECHANICS AND ART SKETCHES</p>
         </div>
       </div>
     </div>

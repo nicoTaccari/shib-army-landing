@@ -10,9 +10,10 @@ export default function Phase3() {
         <div className="title">
           <h3>PHASE 3</h3>
           <p>
-            - Shipping of 3D print models to all SUPER RARE Shibarmy NFT Hodlers
+            - SHIPPING OF 3D PRINTED MODELS TO ALL SUPER RARE SHIBARMY NFT
+            HODLERS
           </p>
-          <p>- ALPHA of NFT GAME</p>
+          <p>- ALPHA OF NFT GAME</p>
           <p>- POLL ABOUT FUTURE PROJECTS</p>
         </div>
       </div>

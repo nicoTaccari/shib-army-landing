@@ -9,7 +9,7 @@ export default function Phase4() {
       <div className="details">
         <div className="title">
           <h3>PHASE 4</h3>
-          <p>- Put on your seatbelt, we are going to them moon together!</p>
+          <p>- PUT ON YOUR SEATBELT, WE ARE GOING TO THE MOON TOGETHER!</p>
         </div>
       </div>
     </div>
