@@ -23,3 +23,10 @@ h2 {
   font-weight: 700;
   color: #e6a30c;
 }
+
+@media (max-width: 780px) {
+  h2,
+  h1 {
+    font-size: 1.5em;
+  }
+}
