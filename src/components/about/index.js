@@ -16,11 +16,17 @@ export default function About() {
           them, because no Shiba comes alone! We formed a ShibArmy to declare
           war on another zero and create wealth, because we believe in{" "}
           <span className="shib">$SHIB!</span> Tighten your belt, we will soon
-          reach the moon! Every Shiba Warrior is unique, with different armors,
-          weapons, properties, backgrounds and much more. They are divided into
-          three categories: uncommon, rare and legendary. All legendary Shiba
-          gods are special, hand-drawn, one-of-a-kind masterpieces with unique
-          accessories. You won't believe it until you see them!
+          reach the moon!
+        </p>
+        <p>
+          Every Shiba Warrior is unique, with different armors, weapons,
+          properties, backgrounds and much more. They are divided into three
+          categories: uncommon, rare and legendary.
+        </p>
+        <p>
+          All legendary Shiba gods are special, hand-drawn, one-of-a-kind
+          masterpieces with unique accessories. You won't believe it until you
+          see them!
         </p>
       </div>
     </section>

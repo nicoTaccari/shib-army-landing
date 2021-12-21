@@ -14,16 +14,21 @@ import Five from "../../assets/images/gallery/5.png";
 import Six from "../../assets/images/gallery/6.png";
 import Seven from "../../assets/images/gallery/7.png";
 // import Swiper core and required modules
-import SwiperCore, { Keyboard, Pagination, Navigation } from "swiper";
+import SwiperCore, { Keyboard, Pagination, Navigation, Autoplay } from "swiper";
 
 // install Swiper modules
-SwiperCore.use([Keyboard, Pagination, Navigation]);
+SwiperCore.use([Keyboard, Pagination, Navigation, Autoplay]);
 
 export default function Gallery() {
   return (
     <section className="swiper-container">
       <h2>OUR SHIBA WARRIORS</h2>
       <Swiper
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
+        loop
         slidesPerView={1}
         spaceBetween={30}
         keyboard={{
