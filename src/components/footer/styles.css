@@ -50,8 +50,9 @@
 
 .logo img {
   display: block;
-  width: 75px;
+  transform: scale(1.4);
   height: 75px;
+  margin-left: 40px;
 }
 
 .footer-name {

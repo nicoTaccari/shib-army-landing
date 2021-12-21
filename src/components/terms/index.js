@@ -174,7 +174,7 @@ export default function Terms() {
           licence to incorporate and use the feedback for any purpose.
         </p>
         <h2 className="terms-title">Credits</h2>
-        <p>Website designed and developed by .</p>
+        <p>Website designed and developed by Tacca Crypto and Arsh.</p>
       </div>
       <Footer />
     </>

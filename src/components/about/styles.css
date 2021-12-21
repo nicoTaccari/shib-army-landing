@@ -27,6 +27,10 @@
   flex-direction: row;
 }
 
+.shib{ 
+  color: #f7972b;
+}
+
 @media (max-width: 960px) {
   .row {
     flex-direction: column;

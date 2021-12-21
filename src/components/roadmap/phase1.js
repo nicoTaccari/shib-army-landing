@@ -8,8 +8,8 @@ export default function Phase1() {
           <h3>PHASE 1</h3>
           <p>- NFT MINTING</p>
           <p>- NFT REVEAL</p>
-          <p>Charity Donation</p>
-          <p>Start to generate passive income</p>
+          <p>- Charity Donation</p>
+          <p>- Start to generate passive income</p>
         </div>
       </div>
     </div>
