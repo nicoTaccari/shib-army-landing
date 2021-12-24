@@ -8,10 +8,12 @@ import About from "./components/about";
 import Footer from "./components/footer";
 import Team from "./components/team";
 import Profiles from "./components/profiles";
+import HeaderRow from "./components/header-row";
 
 const App = () => {
   return (
     <>
+      <HeaderRow />
       <Header />
       <About />
       <Roadmap />

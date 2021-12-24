@@ -40,6 +40,8 @@
 
 .shiba {
   width: 200px;
+  position: absolute;
+  left: 550px;
 }
 
 .progression {
