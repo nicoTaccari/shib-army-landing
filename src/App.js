@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 
 import "./App.css";
 import Roadmap from "./components/roadmap/index";
@@ -12,7 +12,7 @@ import HeaderRow from "./components/header-row";
 
 const App = () => {
   return (
-    <>
+    <Suspense fallback={"Loading..."}>
       <HeaderRow />
       <Header />
       <About />
@@ -21,7 +21,7 @@ const App = () => {
       <Team />
       <Profiles />
       <Footer />
-    </>
+    </Suspense>
   );
 };
 

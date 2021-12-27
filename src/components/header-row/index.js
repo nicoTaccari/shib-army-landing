@@ -6,8 +6,6 @@ import "./styles.css";
 function HeaderRow() {
   return (
     <div className="header-row">
-      {/* <LogoWithName logo={LogoWhite} /> */}
-
       <div className="icons">
         <a
           rel="noreferrer"

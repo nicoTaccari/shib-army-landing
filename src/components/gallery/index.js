@@ -6,13 +6,13 @@ import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
 import "swiper/swiper-bundle.css";
 import "../../App.css";
 import "./styles.css";
-import One from "../../assets/images/gallery/1.png";
-import Two from "../../assets/images/gallery/2.png";
-import Three from "../../assets/images/gallery/3.png";
-import Four from "../../assets/images/gallery/4.png";
-import Five from "../../assets/images/gallery/5.png";
-import Six from "../../assets/images/gallery/6.png";
-import Seven from "../../assets/images/gallery/7.png";
+import One from "../../assets/images/gallery/1.webp";
+import Two from "../../assets/images/gallery/2.webp";
+import Three from "../../assets/images/gallery/3.webp";
+import Four from "../../assets/images/gallery/4.webp";
+import Five from "../../assets/images/gallery/5.webp";
+import Six from "../../assets/images/gallery/6.webp";
+import Seven from "../../assets/images/gallery/7.webp";
 // import Swiper core and required modules
 import SwiperCore, { Keyboard, Pagination, Navigation, Autoplay } from "swiper";
 

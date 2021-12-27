@@ -1,8 +1,8 @@
 import React from "react";
 import "./styles.css";
-import Hawk from "../../assets/images/Hawkenase.png";
-import Lion from "../../assets/images/Lion_King.png";
-import Mong from "../../assets/images/Mong.jpg";
+import Hawk from "../../assets/images/Hawkenase.webp";
+import Lion from "../../assets/images/Lion_King.webp";
+import Mong from "../../assets/images/Mong.webp";
 
 import Profile from "./profile";
 

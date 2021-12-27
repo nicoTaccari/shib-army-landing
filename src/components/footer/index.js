@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import LogoWithName from "./logo-with-name";
 import "./styles.css";
 
-import Logo from "../../assets/images/icons/Logo_with_text.png";
+import Logo from "../../assets/images/icons/Logo_with_text.webp";
 
 export default function Footer() {
   return (

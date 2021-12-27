@@ -4,7 +4,7 @@ import Footer from "../footer";
 import LogoWithName from "../footer/logo-with-name";
 import "./styles.css";
 import { IoMdArrowBack } from "react-icons/io";
-import Logo from "../../assets/images/icons/Logo_header_white.png";
+import Logo from "../../assets/images/icons/Logo_with_text.webp";
 import { SiDiscord } from "react-icons/si";
 
 export default function Terms() {
