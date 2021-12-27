@@ -5,13 +5,20 @@
   max-width: 1160px;
   padding: 0 60px;
   margin: auto;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   position: absolute;
   top: 60px;
   left: 0;
   right: 0;
   z-index: 2;
+}
+
+@media (max-width: 780px) {
+  .header-row {
+    justify-content: center;
+    top: 300px;
+  }
 }
 
 .icons {

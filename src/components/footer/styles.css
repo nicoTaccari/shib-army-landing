@@ -10,13 +10,13 @@
 @media (max-width: 780px) {
   .footer {
     flex-wrap: wrap;
+    padding: 0 30px;
   }
   .footer-name {
     font-size: 1.5em;
   }
   .footer-right-column a {
     font-size: 1em;
-    margin-left: 1em;
   }
   .footer-left-column {
     order: 2;
@@ -28,7 +28,6 @@
 
 .description {
   font-weight: 300;
-  margin-left: 1em;
 }
 
 .copyright {
@@ -36,7 +35,6 @@
   color: #848198;
   font-weight: 300;
   margin-top: 2.5em;
-  margin-left: 1em;
 }
 .footer-left-column {
   justify-content: space-between;
@@ -51,8 +49,16 @@
 .logo img {
   display: block;
   transform: scale(1.4);
-  height: 75px;
-  margin-left: 40px;
+  height: 60px;
+  padding: 0 20px;
+}
+
+@media (min-width: 780px) {
+  .logo img {
+    display: flex;
+    transform: scale(1.4);
+    height: 75px;
+  }
 }
 
 .footer-name {

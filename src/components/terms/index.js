@@ -4,7 +4,7 @@ import Footer from "../footer";
 import LogoWithName from "../footer/logo-with-name";
 import "./styles.css";
 import { IoMdArrowBack } from "react-icons/io";
-
+import Logo from "../../assets/images/icons/Logo_header_white.png";
 import { SiDiscord } from "react-icons/si";
 
 export default function Terms() {
@@ -12,7 +12,7 @@ export default function Terms() {
     <>
       <section className="terms-hero">
         <header className="terms-container terms-row">
-          <LogoWithName />
+          <LogoWithName logo={Logo} />
           <div className="icons-container">
             <a
               rel="noreferrer"

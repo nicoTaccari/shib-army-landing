@@ -1,5 +1,6 @@
 {
   "name": "shib-army-landing",
+  "homepage": "http://shibarmy.army",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

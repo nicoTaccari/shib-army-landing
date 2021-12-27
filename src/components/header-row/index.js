@@ -2,13 +2,11 @@ import React from "react";
 import { FaTwitter } from "react-icons/fa";
 import { SiDiscord } from "react-icons/si";
 import "./styles.css";
-import LogoWithName from "../footer/logo-with-name";
-import LogoWhite from "../../assets/images/icons/Logo_header_white.png";
 
 function HeaderRow() {
   return (
     <div className="header-row">
-      <LogoWithName logo={LogoWhite} />
+      {/* <LogoWithName logo={LogoWhite} /> */}
 
       <div className="icons">
         <a
