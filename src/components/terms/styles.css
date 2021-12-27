@@ -1,7 +1,7 @@
 .terms-container {
   max-width: 1160px;
   padding: 0 60px;
-  margin: auto;
+  margin: auto auto 6em auto;
 }
 
 @media (max-width: 780px) {
