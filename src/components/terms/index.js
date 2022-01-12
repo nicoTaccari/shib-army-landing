@@ -5,7 +5,7 @@ import LogoWithName from "../footer/logo-with-name";
 import "./styles.css";
 import { IoMdArrowBack } from "react-icons/io";
 import Logo from "../../assets/images/icons/Logo_with_text.webp";
-import { SiDiscord } from "react-icons/si";
+import { SiDiscord, SiGithub } from "react-icons/si";
 
 export default function Terms() {
   return (
@@ -174,7 +174,17 @@ export default function Terms() {
           licence to incorporate and use the feedback for any purpose.
         </p>
         <h2 className="terms-title">Credits</h2>
-        <p>Website designed and developed by Tacca Crypto and Arsh.</p>
+        <p>
+          Website designed and developed by Nico{" "}
+          <a
+            href="https://github.com/nicoTaccari"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <SiGithub size={"1.5em"} className="github" />
+          </a>{" "}
+          and Arsh.
+        </p>
       </div>
       <Footer />
     </>
