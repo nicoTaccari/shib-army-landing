@@ -11,12 +11,14 @@ const About = React.lazy(() => import("./components/about"));
 const Footer = React.lazy(() => import("./components/footer"));
 const Team = React.lazy(() => import("./components/team"));
 const Profiles = React.lazy(() => import("./components/profiles"));
+const HeaderButton = React.lazy(() => import("./components/header-button"));
 
 const App = () => {
   return (
     <Suspense fallback={<Spinner />}>
       <HeaderRow />
       <Header />
+      <HeaderButton />
       <About />
       <Roadmap />
       <Gallery />
