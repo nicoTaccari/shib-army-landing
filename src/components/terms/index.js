@@ -17,7 +17,7 @@ export default function Terms() {
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://discord.gg/shibarmynft"
+              href="https://discord.gg/K88Rn2D9y8"
             >
               <SiDiscord />
             </a>

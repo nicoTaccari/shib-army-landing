@@ -14,7 +14,7 @@
   z-index: 2;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 880px) {
   .header-row {
     justify-content: center;
     top: 300px;
@@ -34,7 +34,10 @@
   padding: 15px 15px 5px 15px;
   background-color: #e6a30c;
   transition: background-color 0.5s ease-in-out;
+
 }
+
+
 .icons > a:hover {
   background-color: #ffd30e;
 }
@@ -55,3 +58,20 @@
 .front > a:hover {
   background-color: #6c77ea;
 }
+
+button {
+  background-color: #e6a30c;
+  height:45px;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  transition: background-color 0.5s ease-in-out;
+  box-sizing: border-box;
+  border-width:0;
+  font-weight:bold;
+}
+button:hover {
+  background-color: #ffd30e;
+}
+
+

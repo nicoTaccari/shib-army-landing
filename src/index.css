@@ -11,6 +11,7 @@ body {
   scrollbar-width: none; /* Firefox */
   background-color: #151824;
   letter-spacing: 0.05em;
+  box-sizing: border-box;
 }
 
 code {
@@ -22,3 +23,5 @@ code {
 body::-webkit-scrollbar {
   display: none;
 }
+
+
