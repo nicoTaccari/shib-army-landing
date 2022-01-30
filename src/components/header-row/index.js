@@ -15,30 +15,34 @@ export const HeaderRow = ({ onClickConnectWallet, onClickDisconnectWallet, walle
       <div></div>
       <div className="icons">
         {walletAddress ? (
-  
+
           <div >
             <button type="submit" onClick={onClickDisconnectWallet}>
               {' '}
               {walletAddress.slice(0, 11)}...{' '}
             </button>
           </div>
-    
+
         ) : (
-   
+
           <div>
             <button type="submit" onClick={onClickConnectWallet}>
               {' '}
               CONNECT{' '}
             </button>
           </div>
-       
- 
+
+
         )}
 
         <a rel="referrer  noreferrer" target="_blank" href="https://twitter.com/Shibarmy__NFT">
           <FaTwitter />
         </a>
-        <a rel="referrer  noreferrer" target="_blank" href="https://discord.gg/K88Rn2D9y8">
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://discord.gg/K88Rn2D9y8"
+        >
           <SiDiscord />
         </a>
       </div>
