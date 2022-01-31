@@ -17,7 +17,7 @@ function HeaderRow() {
         <a
           rel="noreferrer"
           target="_blank"
-          href="https://discord.gg/K88Rn2D9y8"
+          href="https://discord.gg/shibarmynft"
         >
           <SiDiscord />
         </a>
