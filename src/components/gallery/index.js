@@ -1,9 +1,13 @@
 import React from "react";
 
 // eslint-disable-next-line
-import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
+import { Swiper, SwiperSlide } from "swiper/react";
 // eslint-disable-next-line
-import "swiper/swiper-bundle.css";
+import "swiper/css";
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
 import "../../App.css";
 import "./styles.css";
 import One from "../../assets/images/gallery/1.webp";

@@ -1,31 +1,30 @@
 import React, { useState, useEffect } from "react";
 import "./styles.css";
 import HeaderVideo from "../../assets/videos/Banner.mp4";
-// import { VideoScroll } from "react-video-scroll";
+import { VideoScroll } from "react-video-scroll";
 
 export default function Header() {
 
-  const handleScroll = () => {
-    setDivStyle({ transform: `translateY(${window.scrollY}px)` })
-  }
+  // const handleScroll = () => {
+  //   setDivStyle({ transform: `translateY(${window.scrollY}px)` })
+  // }
 
-  const [divStyle, setDivStyle] = useState({ transform: 'translateY(0px)' })
+  // const [divStyle, setDivStyle] = useState({ transform: 'translateY(0px)' })
 
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
+  // useEffect(() => {
+  //   window.addEventListener('scroll', handleScroll);
 
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
 
-    };
-  }, []);
+  //   };
+  // }, []);
 
 
   return (<section className="header-section">
-    <div style={divStyle}>
-
-      {/* <VideoScroll> */}
+    <VideoScroll
+      playbackRate={180}>
       <video
         className="header-video"
         tabIndex="0"
@@ -35,8 +34,7 @@ export default function Header() {
       >
         <source src={HeaderVideo} type="video/mp4" />
       </video>
-      {/* </VideoScroll> */}
-    </div>
+    </VideoScroll>
   </section>
   );
 }

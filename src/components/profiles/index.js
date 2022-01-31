@@ -48,8 +48,6 @@ function Profiles(props) {
         position={team.mong.position}
         content={team.mong.content}
       />
-      {/* <Profile border={true} name={"Lion King"} image={Lion} />
-      <Profile border={false} name={"Mong"} image={Mong} /> */}
     </div>
   );
 }

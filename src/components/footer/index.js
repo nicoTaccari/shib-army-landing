@@ -3,6 +3,7 @@ import LogoWithName from "./logo-with-name";
 import "./styles.css";
 
 import Logo from "../../assets/images/icons/Logo_with_text.webp";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -12,8 +13,8 @@ export default function Footer() {
         <p className="copyright">©2021 ShibArmy. All rights reserved.</p>
       </div>
       <div className="footer-right-column">
-        {/* <Link to="/">Home</Link>
-        <Link to="/terms">Terms and conditions</Link> */}
+        <Link to="/">Home</Link>
+        <Link to="/terms">Terms and conditions</Link>
       </div>
     </section>
   );
