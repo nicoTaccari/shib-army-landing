@@ -15,6 +15,7 @@ export default function Footer() {
       <div className="footer-right-column">
         <Link to="/">Home</Link>
         <Link to="/terms">Terms and conditions</Link>
+        <Link to="/imx">IMX</Link>
       </div>
     </section>
   );

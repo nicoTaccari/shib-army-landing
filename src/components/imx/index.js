@@ -6,6 +6,7 @@ import { imxContent } from "./imxContent";
 import parse from "html-react-parser";
 import "./styles.css";
 import EmbeddedVideo from "../embedded-video";
+import Footer from "../footer";
 
 const youtubeVideo = "https://www.youtube.com/watch?v=duDhHnARCS0";
 
@@ -25,6 +26,7 @@ export default function Imx() {
         })}
         <EmbeddedVideo url={youtubeVideo} />
       </div>
+      <Footer />
     </>
   );
 }
