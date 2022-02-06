@@ -1,6 +1,7 @@
 import React from "react";
 import { FaTwitter } from "react-icons/fa";
 import { SiDiscord } from "react-icons/si";
+import { Link } from "react-router-dom";
 import "./styles.css";
 
 function HeaderRow() {
@@ -21,6 +22,7 @@ function HeaderRow() {
         >
           <SiDiscord />
         </a>
+        <Link to="/imx">IMX</Link>
       </div>
     </div>
   );

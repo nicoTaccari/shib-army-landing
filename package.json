@@ -11,9 +11,11 @@
     "axios": "^0.21.4",
     "dotenv": "^8.2.0",
     "history": "^5.2.0",
+    "html-react-parser": "^1.4.7",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.3.1",
+    "react-player": "^2.9.0",
     "react-router-dom": "^6.2.1",
     "react-scripts": "^5.0.0",
     "react-video-scroll": "^1.0.1",
@@ -22,7 +24,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "cleanBuild": "rimraf ./build/*",
+    "build": "npm run cleanBuild && set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
