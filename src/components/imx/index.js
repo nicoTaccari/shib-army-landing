@@ -7,6 +7,8 @@ import parse from "html-react-parser";
 import "./styles.css";
 import EmbeddedVideo from "../embedded-video";
 
+const youtubeVideo = "https://www.youtube.com/watch?v=duDhHnARCS0";
+
 export default function Imx() {
   return (
     <>
@@ -21,7 +23,7 @@ export default function Imx() {
             </>
           );
         })}
-        <EmbeddedVideo />
+        <EmbeddedVideo url={youtubeVideo} />
       </div>
     </>
   );

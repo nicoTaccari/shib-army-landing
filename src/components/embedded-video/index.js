@@ -1,10 +1,11 @@
 import React from "react";
 import ReactPlayer from "react-player/lazy";
-const youtubeVideo = "https://www.youtube.com/watch?v=duDhHnARCS0";
+import "./styles.css";
 
-export default function EmbeddedVideo() {
+export default function EmbeddedVideo({ url }) {
   return (
-    // Render a YouTube video player
-    <ReactPlayer width={"inherit"} url={youtubeVideo} controls />
+    <div className="video-wrapper">
+      <ReactPlayer width="100%" height="100%" url={url} controls />;
+    </div>
   );
 }

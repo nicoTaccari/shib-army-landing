@@ -31,9 +31,14 @@
   text-decoration: none;
   color: #000;
   font-size: 20px;
-  padding: 15px 15px 5px 15px;
   background-color: #e6a30c;
   transition: background-color 0.5s ease-in-out;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
 }
 .icons > a:hover {
   background-color: #ffd30e;

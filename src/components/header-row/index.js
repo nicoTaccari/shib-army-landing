@@ -22,9 +22,7 @@ function HeaderRow() {
         >
           <SiDiscord />
         </a>
-        <Link to="/imx">
-          Imx
-        </Link>
+        <Link to="/imx">IMX</Link>
       </div>
     </div>
   );
