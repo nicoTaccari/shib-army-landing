@@ -7,7 +7,10 @@ import "./styles.css";
 function HeaderRow() {
   return (
     <div className="header-row">
-      <div className="icons">
+      <div className="icons left">
+        <Link to="/imx">IMX</Link>
+      </div>
+      <div className="icons right">
         <a
           rel="noreferrer"
           target="_blank"
@@ -22,7 +25,6 @@ function HeaderRow() {
         >
           <SiDiscord />
         </a>
-        <Link to="/imx">IMX</Link>
       </div>
     </div>
   );
