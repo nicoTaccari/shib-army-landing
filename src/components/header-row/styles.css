@@ -5,7 +5,7 @@
   max-width: 1160px;
   padding: 0 60px;
   margin: auto;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   position: absolute;
   top: 60px;
@@ -27,13 +27,29 @@
   align-items: center;
   gap: 20px;
 }
+
+.left {
+  margin-right: 20px;
+}
+
+.left > a {
+  width: 150px;
+}
+
+.right > a {
+  width: 50px;
+}
 .icons > a {
   text-decoration: none;
   color: #000;
   font-size: 20px;
-  padding: 15px 15px 5px 15px;
   background-color: #e6a30c;
   transition: background-color 0.5s ease-in-out;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
 }
 .icons > a:hover {
   background-color: #ffd30e;
