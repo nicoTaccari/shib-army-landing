@@ -51,7 +51,7 @@ export default function Terms() {
         </p>
         <p>
           By visiting the website of our products merchants, in particular
-          <a href="#"> www.market.x.immutable.com</a>, you also engage and agree
+          <a href="market.x.immutable.com/">market.x.immutable.com</a>, you also engage and agree
           to be bound by their terms and conditions.
         </p>
         <p>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./styles.css";
 import HeaderVideo from "../../assets/videos/Banner.mp4";
 import { VideoScroll } from "react-video-scroll";
