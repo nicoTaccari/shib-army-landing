@@ -1,0 +1,41 @@
+.header-button {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #e6a30c;
+  transition: background-color 0.5s ease-in-out;
+  padding: 25px 50px;
+  cursor: pointer;
+  border: none;
+}
+.header-button:hover {
+  background-color: #ffd30e;
+}
+
+@media (max-width: 980px) {
+  .header-button {
+    top: 50%;
+  }
+}
+
+@media (max-width: 780px) {
+  .header-button {
+    top: 35%;
+    padding: 20px 30px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-button {
+    top: 20%;
+    padding: 15px 25px;
+    font-size: 16px;
+  }
+}

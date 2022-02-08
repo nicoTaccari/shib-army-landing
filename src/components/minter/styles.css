@@ -1,0 +1,136 @@
+.minter {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  margin: -10rem auto 0 auto;
+  max-width: 600px;
+  min-height: 200px;
+  background: #04091a;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.minter h2 {
+  font-size: 2rem;
+}
+
+.minter .minter-progress progress {
+  width: 100%;
+}
+
+.minter .minter-steps {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.minter .minter-steps button {
+  display: block;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 0;
+  width: 25%;
+  color: #e6a30c;
+  cursor: pointer;
+}
+
+.minter .minter-steps button[disabled] {
+  color: #888;
+  cursor: default;
+}
+
+.minter .mint-status {
+  text-align: center;
+  color: #888;
+  margin: 0.5rem 0 1.5rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.minter p, dl {
+  flex-grow: 1;
+  margin: 0 0 1.5rem 0;
+}
+
+.minter p a {
+  color: #f7972b;
+}
+
+.minter dl {
+  color: #888;
+}
+
+.minter .action {
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.minter .action button, .minter .action input, .minter .action a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-grow: 1;
+  border: 1px solid #4753d6;
+  transition: background-color 0.5s ease-in-out;
+  background-color: transparent;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  border-radius: 50px;
+  height: 60px;
+}
+
+.minter .action input {
+  padding: 0 1.5rem;
+  margin: 0 1rem;
+}
+
+.minter .action a {
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.minter .action button img, .minter .action a img {
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+}
+
+.minter .mint-amount {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.minter .minter-loading {
+  min-height: 200px;
+  position: relative;
+}
+
+.minter .minter-loading .lds-ring {
+  position: absolute;
+}
+
+.minter .mint-error {
+  color: red;
+}
+
+.minter .owned-tokens {
+  display: flex;
+  flex-direction: row wrap;
+}
+
+.minter .owned-tokens div {
+  width: 50%;
+}
+
+.minter .owned-tokens div img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
