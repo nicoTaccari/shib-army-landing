@@ -16,7 +16,7 @@ export const imxContent = [
   },
   {
     content:
-      "<a href='#' rel='noreferrer' target='_blank'>ShibArmy Collection</a>",
+      "<a href='https://market.immutable.com/assets?collection=0x6c81037ba3418f31ab7e69d43daf33d737076392' rel='noreferrer' target='_blank'>ShibArmy Collection</a>",
   },
   {
     title: "How to transfer your funds to IMX?",
