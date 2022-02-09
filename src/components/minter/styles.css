@@ -10,6 +10,12 @@
   padding: 0.5rem 2rem 0.5rem 2rem;
 }
 
+@media (max-width: 480px) {
+  .minter {
+    margin: 10rem auto 0 auto;
+  }
+}
+
 .minter h2 {
   font-size: 2rem;
 }
