@@ -12,7 +12,7 @@ import "./styles.css";
 import logoMetaMask from '../../assets/images/icons/metamask.svg';
 import logoImmutableX from '../../assets/images/icons/immutable-x.svg';
 
-export default function Minter({ contractAddress, presaleDate, saleDate, totalTokens, mintPrice, presaleWhitelist, presaleMaxMintAmount, tokenShuffleRounds, salesAddress, royaltiesAddress }) {
+export default function Minter({ contractAddress, presaleDate, saleDate, totalTokens, presaleMintPrice, mintPrice, presaleWhitelist, presaleMaxMintAmount, tokenShuffleRounds, salesAddress, royaltiesAddress }) {
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);
   const [step, setStep] = useState(1);
@@ -246,9 +246,10 @@ export default function Minter({ contractAddress, presaleDate, saleDate, totalTo
       }
       const mintTokenIds = availableTokenIds.slice(0, mintAmount);
 
+      const currentPrice = presaleActive ? presaleMintPrice : mintPrice;
       await link.transfer([
         {
-          amount: (mintPrice * mintAmount).toString(),
+          amount: (currentPrice * mintAmount).toString(),
           type: ETHTokenType.ETH,
           toAddress: salesAddress,
         },
@@ -293,8 +294,9 @@ export default function Minter({ contractAddress, presaleDate, saleDate, totalTo
    * Visuals
   **/
 
+  const currentPrice = presaleActive ? presaleMintPrice : mintPrice;
   const stepProgress = Math.min(100, 12.5 + (step-1) * 25);
-  const ableToMint = Math.floor(balanceL2/mintPrice);
+  const ableToMint = Math.floor(balanceL2/currentPrice);
   const maxMintAmount = presaleActive ? presaleMaxMintAmount : 100;
 
   const stepsTabs = (
@@ -364,7 +366,7 @@ export default function Minter({ contractAddress, presaleDate, saleDate, totalTo
           type="number"
           value={depositAmount}
           onChange={e => setDepositAmount(e.target.value)}
-          min={Math.max(0, mintPrice - balanceL2)}
+          min={Math.max(0, currentPrice - balanceL2)}
           step="any"
           style={{marginLeft: 0}}
         />

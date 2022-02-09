@@ -26,7 +26,8 @@ const App = () => {
         presaleDate={moment("2022-02-08T16:00:00+00:00")}
         saleDate={moment("2022-02-10T04:00:00+00:00")}
         totalTokens={500}
-        mintPrice={0.08216}
+        presaleMintPrice={0.08216}
+        mintPrice={0.09}
         presaleWhitelist={whitelist}
         presaleMaxMintAmount={2}
         tokenShuffleRounds={5}
