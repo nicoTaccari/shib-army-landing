@@ -23,7 +23,7 @@ const App = () => {
       <Header />
       <Minter
         contractAddress={process.env.REACT_APP_NFT_CONTRACT_ADDRESS.toLowerCase()}
-        presaleDate={moment("2022-02-08T16:00:00+00:00")}
+        presaleDate={moment("2022-02-09T16:00:00+00:00")}
         saleDate={moment("2022-02-10T04:00:00+00:00")}
         totalTokens={500}
         presaleMintPrice={0.08216}
