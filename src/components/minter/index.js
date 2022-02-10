@@ -149,8 +149,10 @@ export default function Minter({ contractAddress, presaleDate, saleDate, totalTo
       });
       const wallet = accounts[0];
 
-      if (!presaleWhitelist.includes(wallet.toString().toLowerCase())) {
-        throw Error(`Your wallet (${wallet}) is not on a whitelist!`);
+      if (presaleActive) {
+        if (!presaleWhitelist.includes(wallet.toString().toLowerCase())) {
+          throw Error(`Your wallet (${wallet}) is not on a whitelist!`);
+        }
       }
 
       setWallet(wallet);
